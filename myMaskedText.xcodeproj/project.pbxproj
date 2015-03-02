@@ -14,6 +14,7 @@
 		4385363A1AA40BB200A5049E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438536391AA40BB200A5049E /* Images.xcassets */; };
 		4385363D1AA40BB200A5049E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4385363B1AA40BB200A5049E /* LaunchScreen.xib */; };
 		438536491AA40BB200A5049E /* myMaskedTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438536481AA40BB200A5049E /* myMaskedTextTests.m */; };
+		438536541AA4134F00A5049E /* MaskedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 438536531AA4134F00A5049E /* MaskedLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		438536421AA40BB200A5049E /* myMaskedTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myMaskedTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		438536471AA40BB200A5049E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		438536481AA40BB200A5049E /* myMaskedTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myMaskedTextTests.m; sourceTree = "<group>"; };
+		438536521AA4134F00A5049E /* MaskedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskedLabel.h; sourceTree = "<group>"; };
+		438536531AA4134F00A5049E /* MaskedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskedLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				438536331AA40BB200A5049E /* ViewController.h */,
 				438536341AA40BB200A5049E /* ViewController.m */,
 				438536361AA40BB200A5049E /* Main.storyboard */,
+				438536521AA4134F00A5049E /* MaskedLabel.h */,
+				438536531AA4134F00A5049E /* MaskedLabel.m */,
 				438536391AA40BB200A5049E /* Images.xcassets */,
 				4385363B1AA40BB200A5049E /* LaunchScreen.xib */,
 				4385362C1AA40BB200A5049E /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				438536351AA40BB200A5049E /* ViewController.m in Sources */,
+				438536541AA4134F00A5049E /* MaskedLabel.m in Sources */,
 				438536321AA40BB200A5049E /* AppDelegate.m in Sources */,
 				4385362F1AA40BB200A5049E /* main.m in Sources */,
 			);
